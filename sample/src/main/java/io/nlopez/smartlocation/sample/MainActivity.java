@@ -231,4 +231,9 @@ public class MainActivity extends Activity implements OnLocationUpdatedListener,
                 return "dwell";
         }
     }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }
 }
